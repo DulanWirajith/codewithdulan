@@ -1,93 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Galaxy Sim</title>
-    <meta charset="UTF-8">
+    <title>Code With Dulan</title>
 
-    <style>
-        body, html {
-            padding: 0; 
-            margin: 0; 
-            background-color: black; 
-            font: 15px helvetica, arial, 
-            sans-serif; 
-            color: white; 
-        }
-
-        body > canvas {
-            position: absolute; 
-            top: 0; 
-            left: 0; 
-            padding: 0; 
-            margin: 0; 
-            background-color: 
-            black; 
-            z-index: -1; 
-        }
-
-        #loading_cover { 
-            position: absolute; 
-            top: 0; 
-            left: 0; 
-            width: 100%; 
-            height: 100%; 
-            padding: 0; 
-            margin: 0; 
-            background-color: black; 
-            z-index: 9;
-            -webkit-transform: translatez(0); 
-            -moz-transform: translatez(0); 
-            -ms-transform: translatez(0); 
-            -o-transform: translatez(0); 
-            transform: translatez(0);
-        }
-
-        #loading_indicator {
-            position: absolute; 
-            width: 355px; 
-            height: 40px; 
-            z-index: 10; 
-            position: absolute; 
-            top: 30%; 
-            margin-left: auto; 
-            margin-right: auto; 
-            left: 0; 
-            right: 0;
-            border-radius: 10px;
-            background-color: #555;
-        }
-
-        #loading_indicator .loading_bar {
-            position: absolute; 
-            width: 0px; 
-            height: 40px; 
-            z-index: 11; 
-            top: 0; 
-            left: 0;
-            border-radius: 10px;
-            background-color: #fff;
-        }
-
-        #loading_indicator .loading_text {
-            position: absolute; 
-            width: 355px; 
-            height: 40px; 
-            z-index: 12; 
-            top: 60px; 
-            left: 0;
-            color: #fff;
-            text-align: center;
-            line-height: 40px;
-            text-shadow: 0 0 5px #000;
-            font-style: italic;
-        }
-
-    </style>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="libs/css/main.css">
+    <!-- script
+    ================================================== -->
+    <script defer src="libs/fontawesome/all.min.js"></script>
 
     <script type="text/javascript" src="libs/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="libs/lodash.min.js"></script>
     <script type="text/javascript" src="libs/three.min.js"></script>
-    <script type="text/javascript" src="libs/OrbitControls.js"></script>    
+    <script type="text/javascript" src="libs/OrbitControls.js"></script>
     <script type="text/javascript" src='libs/dat.gui.js'></script>
 
     <script type="text/javascript" src="init.js"></script>
@@ -103,5 +29,33 @@
             <span class="loading_text"> Loading... </span>
         </div>
     </div>
+
+    <!-- intro
+    ================================================== -->
+    <section >
+        <div class="intro-content"  style="background: transparent; ">
+                <div class="intro-content__text">
+                    <h3>
+                        Coming Soon
+                    </h3>
+                    <h1>
+                        Get ready everyone. <br>
+                        We are currently <br>
+                        working on a super <br>
+                        awesome website.
+                    </h1>
+                </div> <!-- end intro-content__text -->
+            </div> <!-- end column -->
+        <ul class="intro-social">
+            <li><a href="https://www.facebook.com/codewithdulan"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/codewithdulan"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/codewithdulan/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/newsletters/code-with-dulan-6966685726792986624/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul> <!-- end intro social -->
+
+    </section> <!-- end s-intro -->
+
+    <!-- Java Script
+        ================================================== -->
 </body>
 </html>
