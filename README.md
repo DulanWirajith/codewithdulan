@@ -1,6 +1,6 @@
 # galaxy-sim
 
-[__Link to live demo__](http://andrewdcampbell.github.io/galaxy-sim)
+[__Link to live demo__](http://dulan.github.io/codewithdulan)
 
 <img src="https://aparikh98.github.io/CosmologicalSimulation/images/demo.png" width="70%">
 
