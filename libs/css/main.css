@@ -74,10 +74,6 @@ body > canvas {
     font-style: italic;
 }
 
-
-
-
-
 /* ===================================================================
    * # site header
    *
@@ -90,7 +86,6 @@ body > canvas {
     top: 4rem;
     left: 0;
 }
-
 
 /* -------------------------------------------------------------------
  * ## header email
@@ -241,4 +236,14 @@ body > canvas {
     letter-spacing: normal;
     margin-top: 0;
     margin-bottom: .8rem;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
